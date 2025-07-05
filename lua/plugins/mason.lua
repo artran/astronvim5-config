@@ -20,6 +20,9 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
+
+        -- artran config
+        "rust-analyzer",
       },
     },
   },
