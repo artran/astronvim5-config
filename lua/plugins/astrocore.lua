@@ -81,8 +81,8 @@ return {
         -- ["<C-S>"] = false,
       },
       i = {
-        -- Map Ctrl+v to open a new line below from Insert mode
-        ["<C-v>"] = { "<C-o>o", desc = "Continue on next line" },
+        -- Map Ctrl+i to open a new line below from Insert mode
+        ["<C-i>"] = { "<C-o>o", desc = "Continue on next line" },
       },
     },
   },
