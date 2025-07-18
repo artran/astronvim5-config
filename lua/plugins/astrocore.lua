@@ -84,10 +84,7 @@ return {
         -- Map Ctrl+i to open a new line below from Insert mode
         ["<C-i>"] = { "<C-o>o", desc = "Continue on next line" },
       },
-      t = {
-        -- Type 'jk' to exit terminal mode
-        ["jk"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
-      },
+      t = {},
     },
   },
 }

@@ -17,4 +17,15 @@ return {
       },
     },
   },
+
+  {
+    -- AstronVim's default config removes the mappings for most modes
+    "max397574/better-escape.nvim",
+    config = function()
+      require("better_escape").setup {
+        timeout = 300,
+        default_mappings = true,
+      }
+    end,
+  },
 }
