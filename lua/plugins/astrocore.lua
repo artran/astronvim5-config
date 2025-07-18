@@ -85,8 +85,8 @@ return {
         ["<C-i>"] = { "<C-o>o", desc = "Continue on next line" },
       },
       t = {
-        -- Map <Esc> to exit terminal mode
-        ["<Esc>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
+        -- Type 'jk' to exit terminal mode
+        ["jk"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
       },
     },
   },
